@@ -5,7 +5,7 @@ const ProductCards = ({ product }) => {
         <div className="group relative bg-white dark:bg-gray-900 rounded-2xl shadow-md hover:shadow-xl transition overflow-hidden border dark:border-gray-800">
 
             {/* IMAGE */}
-            <div className="h-40 bg-gray-100 dark:bg-gray-800 flex items-center justify-center overflow-hidden">
+            <div className="h-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center overflow-hidden">
                 {product.imageUrl ? (
                     <img
                         src={product.imageUrl || "/no-image.png"}
